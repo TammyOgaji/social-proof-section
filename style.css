@@ -168,13 +168,14 @@ body{
 
 /* Design for Mobile */
 
-@media screen and (max-width:467px) {
+@media screen and (max-width:375px) {
     body{
         background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
         background-position: left top, right bottom;
         background-repeat: no-repeat;
         min-height: 100vh;
         align-items: center;
+
     }
     .container{
         max-width: 25rem;
