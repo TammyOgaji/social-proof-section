@@ -216,3 +216,10 @@ body{
         padding: 1.5rem;
     }
 }
+
+@media (max-width:1024px) {
+    .container{
+        max-width: 55rem;
+        padding: 5rem;
+    }
+}
